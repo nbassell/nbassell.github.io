@@ -23,7 +23,59 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+  vertical-align: baseline;}
+  
+  .resume-button {
+    background-color: rgb(87, 52, 92);
+    /* margin-left: 41.5%; */
+    margin-top: 25px;
+    cursor: pointer;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px;
+    color: white;
+  }
+  
+    .cs-languages {
+      display: flex;
+      justify-content: center;
+      /* padding-left: 16.5%; */
+    }
+  
+    .icons {
+      font-size: 80px;
+    }
+  
+    .icon-skillz {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+  
+    .each-icon {
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+    
+  
+    .redux-logo {
+      width: 90px;
+      height: 90px;
+    }
+  
+    .languages1 {
+      list-style-type: none;
+      padding: 20px 40px 20px;
+      margin-bottom: 0;
+    }
+  
+    .align-with-other-columns {
+      padding-bottom: 50px;
+    }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2321,7 +2373,7 @@ input, select, textarea {
 		}
 
 			ul.actions.special li:first-child {
-				padding-left: 0;
+				/* padding-left: 0; */
 			}
 
 		ul.actions.stacked {
@@ -2427,9 +2479,10 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			font-size: 1.25em;
+			font-size: 0.85em;
 			line-height: 1em;
-			padding-left: 0.5em;
+      padding-left: 0.5em;
+      justify-content: center;
 		}
 
 			ul.icons li:first-child {
@@ -2801,10 +2854,10 @@ input, select, textarea {
 		#footer:before {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
-			height: calc(460px + 6em);
+			height: calc(340px + 6em);
 			left: 50%;
 			position: absolute;
-			top: 0;
+			top: 131px;
 			width: 1px;
 			z-index: 0;
 		}
@@ -3321,4 +3374,50 @@ input, select, textarea {
   .prof-pic {
     width: 250px!important;
     height: 250px!important;
+  }
+
+  .paragraph {
+    border-top: none !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    font-size: 18px !important;
+  }
+
+  .resume-button {
+    margin: 20px 0 20px !important;
+  }
+
+  .major.container.medium {
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .projects img {
+    width: 100% !important;
+    height: auto !important;
+    filter: brightness(80%) !important;
+    transform: scale(1) !important; 
+    transition: filter 0.7s, transform 0.7s; 
+  }
+  
+  .projects:hover img {
+    filter: brightness(110%) !important;
+    transform: scale(1.1) !important;
+  }
+
+  .fa-envelope {
+    padding: 0;
+  }
+
+  .section-title {
+    font-size: 48px;
+    margin: 10px 0;
+  }
+
+  #main {
+    padding-bottom: 0 !important;
+  }
+
+  .box.container {
+    padding: 0;
   }
