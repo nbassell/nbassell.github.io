@@ -2688,7 +2688,7 @@ input, select, textarea {
 
 		.feature .content {
 			display: inline-block;
-			padding: 3.5em;
+			padding: 2em 3.5em 3.5em;
 			vertical-align: middle;
 			width: 48%;
 		}
@@ -3420,4 +3420,12 @@ input, select, textarea {
 
   .box.container {
     padding: 0;
+  }
+
+  .content p {
+    margin-bottom: 8px !important;
+  }
+  
+  .content a {
+    font-size: 24px !important;
   }
