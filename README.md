@@ -1,4 +1,3 @@
-#Personal Site
 
 [Live Link][github]
 
@@ -7,8 +6,8 @@
 
 Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+	Background Image:
+		Neil Iris on Unsplash
 
 	Icons:
 		Font Awesome (fontawesome.io)
